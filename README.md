@@ -9,11 +9,10 @@ This is a python implementation of TextRank for automatic keyword and sentence e
 [TextRank: Bringing Order into Texts](https://web.eecs.umich.edu/~mihalcea/papers/mihalcea.emnlp04.pdf). 
 However, this implementation uses Levenshtein Distance as the relation between text units.
 
-This implementation carries out automatic keyword and sentence extraction on 150 articles in Romanian extracted from the 
-internet
+This implementation carries out automatic keyword and sentence extraction for different languages (*see `Adobe NLP Cube` supported languages*)
 
-* 100 word summary
-* Number of keywords extracted is relative to the size of the text (a third of the number of nodes in the graph)
+* Absolute or percenage based word summary
+* Number of keywords extracted is relative to the size of the text (absolute or percentage based)
 * Adjacent keywords in the text are concatenated into key phrases
 
 ## Usage
