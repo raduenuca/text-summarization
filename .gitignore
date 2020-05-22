@@ -1,0 +1,9 @@
+.ipynb_checkpoints
+__pycache__/
+.idea
+venv
+.DS_Store
+env/
+*.pyc
+*.egg-info/
+examples/data/news.json
